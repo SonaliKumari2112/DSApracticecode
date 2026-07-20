@@ -19,12 +19,16 @@ int  main(){
         else if(v[l]==0){                               //          }
             swap(v[l],v[r]);
             l++;
+
             r--;
         }
+
         else{
             l++;
         }
+
     }
+    cout<<"elements after moving zero to end";
     for(int i=0;i<n;i++){
         cout<<v[i];
     }
