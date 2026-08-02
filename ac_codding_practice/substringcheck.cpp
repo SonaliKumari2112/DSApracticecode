@@ -7,9 +7,9 @@ int main(){
    cin>>sub;
     string ss=s+s;
    if (ss.find(sub) != string ::npos){
-    cout<<"substring found";
+    cout<<" substring found  ";
    }else{
-    cout<<"substring not found";
+    cout<<"substring  not found";
    }
    
 
