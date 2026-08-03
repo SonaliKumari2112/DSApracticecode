@@ -12,7 +12,5 @@ int main(){
     cout<<"substring  not found";
    }
    
-
-
     return 0;
 }
