@@ -19,7 +19,9 @@ int main(){
         if(v[l]<0){
             swap(v[l],v[r]);
             l++;
+
             r--;
+
         }
     }
     for(int i=0;i<n;i++){
