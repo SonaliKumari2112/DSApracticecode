@@ -11,6 +11,13 @@ int main(){
             cin>>v[i][j];
         }
     }
+    cout<<"before rotation : "<<endl;
+     for(int i=0;i<n;i++){
+        for(int j=0;j<n;j++){
+            cout<<v[i][j];
+        }
+        cout<<endl;
+    }
     int r;
     cout<<"how many times you want to rotate";
     cin>>r;
@@ -26,6 +33,7 @@ int main(){
             reverse(v[i].begin(),v[i].end());
         }
     }
+    cout<<"After rotation : "<<endl;
     for(int i=0;i<n;i++){
         for(int j=0;j<n;j++){
             cout<<v[i][j];
